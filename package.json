@@ -1,9 +1,9 @@
 {
-  "name": "review.js-vscode",
-  "author": "yfakariya",
+  "name": "@bufferings/review.js-vscode",
+  "author": "bufferings",
   "private": false,
-  "version": "0.19.2",
-  "description": "ReVIEW implementation by JavaScript for VSCode plugin.\nThis is forked version from vvakame/review.js",
+  "version": "0.19.23",
+  "description": "ReVIEW implementation by JavaScript for VSCode plugin.\nThis is forked version from yfakariya/review.js-vscode, which is a fork of vvakame/review.js",
   "main": "./index",
   "bin": {
     "reviewjs": "./bin/reviewjs"
@@ -17,13 +17,13 @@
     "ReVIEW"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/yfakariya/review.js-vscode",
+  "homepage": "https://github.com/bufferings/review.js-vscode",
   "repository": {
     "type": "git",
-    "url": "git@github.com:yfakariya/review.js.git"
+    "url": "git@github.com:bufferings/review.js-vscode.git"
   },
   "bugs": {
-    "url": "https://github.com/yfakariya/review.js-vscode/issues"
+    "url": "https://github.com/bufferings/review.js-vscode/issues"
   },
   "engines": {
     "node": ">= 10.0.0"

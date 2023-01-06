@@ -841,7 +841,7 @@ export class DefaultAnalyzer implements Analyzer {
     }
 
     blockBoxedContentSyntax(builder: AcceptableSyntaxBuilder, symbol: string) {
-        this.blockDecorationSyntax(builder, symbol, 0);
+        this.blockDecorationSyntax(builder, symbol, 0, 1);
         // 囲み記事は段落もサポート。
         builder.setAllowFullySyntax(true);
     }
