@@ -199,7 +199,7 @@ export class DefaultValidator implements Validator {
                         reference.referenceNode = symbol.node;
                     }
                 });
-                if (!reference.referenceNode) {
+                if (!reference.referenceNode && reference.chapter !== undefined) {
                     symbol.chapter!.process.error(t("compile.reference_is_missing", reference.targetSymbol, reference.label ?? reference.chapterName), symbol.node);
                     return;
                 }

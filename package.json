@@ -2,7 +2,7 @@
   "name": "@bufferings/review.js-vscode",
   "author": "bufferings",
   "private": false,
-  "version": "0.19.23",
+  "version": "0.19.24",
   "description": "ReVIEW implementation by JavaScript for VSCode plugin.\nThis is forked version from yfakariya/review.js-vscode, which is a fork of vvakame/review.js",
   "main": "./index",
   "bin": {

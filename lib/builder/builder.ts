@@ -344,7 +344,7 @@ export class DefaultBuilder implements Builder {
         process.out("「");
         const chapter = this.findReference(process, node).referenceTo?.referenceNode?.parentNode.toChapter();
         if (!chapter) {
-            process.error(t("builder.chapter_not_found", 1), node);
+            // process.error(t("builder.chapter_not_found", 1), node);
             return false;
         }
         if (chapter.level === 1) {

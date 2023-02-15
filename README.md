@@ -6,6 +6,7 @@
 
 修正点
 
+* 0.19.24: 他の章を参照している場合に出るエラーを無視するように修正
 * 0.19.23: 囲み記事にキャプションを指定してもエラーにならないように修正
 
 以下 [review.js-vscode](https://github.com/yfakariya/review.js-vscode) のREADME.mdです。
